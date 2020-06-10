@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:tilt="20"
+                    android:outlineSpotShadowColor="#b3b3b3"
+                    app:auto_start="true"
+                    app:duration="1500"
+                    android:orientation="vertical"
+                    >
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="169dp"
+                        android:elevation="5dp"
+
+                        android:layout_marginTop="5dp"
+                        android:padding="3dp"
+                        android:outlineAmbientShadowColor="#bbbbbb"
+                        android:background="@drawable/whitebadge"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></androidx.viewpager.widget.ViewPager>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:elevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/viewPager"
+                    app:tabBackground="@drawable/tab_selector"
+                    app:tabGravity="center"
+
+                    app:tabIndicatorHeight="0dp"></com.google.android.material.tabs.TabLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/recyclerView"
+                    android:clipToPadding="false"
+                    android:paddingLeft="10.3dp"
+                    android:paddingTop="5.7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

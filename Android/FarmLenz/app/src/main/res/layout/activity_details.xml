@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:layout_width="180dp"
+                android:id="@+id/imgAct"
+                android:layout_gravity="center"
+                android:layout_height="180dp"/>
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="180dp"
+                android:id="@+id/imgReal"
+                android:layout_gravity="center"
+                android:layout_height="180dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="25dp"
+                android:text="Possible Disease"
+                android:layout_height="wrap_content"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:id="@+id/posDis"
+                android:text="Possible Disease"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="25dp"
+                android:text="Disease Symptoms"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:id="@+id/disSymp"
+                android:text="Disease Symptoms"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="25dp"
+                android:text="Disease Cause"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/disCause"
+                android:textSize="20dp"
+                android:text="Disease Cause"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="25dp"
+                android:text="Biological control"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/bioCntrl"
+                android:textSize="20dp"
+                android:text="Biological control"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:textSize="25dp"
+                android:text="Chemical Control"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:id="@+id/chemCntrl"
+                android:text="Chemical Control"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

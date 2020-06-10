@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691932060496",
+    "firebase_url": "https://farmlenz.firebaseio.com",
+    "project_id": "farmlenz",
+    "storage_bucket": "farmlenz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691932060496:android:3694a7ddded5702bcd2a55",
+        "android_client_info": {
+          "package_name": "com.insight.farmlenz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691932060496-t4fn2qegnhd931vimpnnbhnfmufldvo1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insight.farmlenz",
+            "certificate_hash": "eb1df410c54d8470907985873351a4a6956a3e41"
+          }
+        },
+        {
+          "client_id": "691932060496-2bsru00lsgksdkuc83rhqu0hb3v9v09m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfG8L_Us26I2J04RNBq1lCfj047Fdv4tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691932060496-2bsru00lsgksdkuc83rhqu0hb3v9v09m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
