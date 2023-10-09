@@ -1,3 +1,5 @@
+<h2><i>Crop Diseases Classification: Leveraging AI for Sustainable Agriculture</i></h2>
+
 ![](./farming.jpg)
 
 
